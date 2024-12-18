@@ -1,0 +1,11 @@
+# FrankenPHP Configuration
+log_level: debug
+
+php_ini:
+  display_errors: "on"
+  memory_limit: "256M"
+  max_execution_time: "30"
+
+routes:
+  - path: "/"
+    script: "/var/www/html/public/index.php"
